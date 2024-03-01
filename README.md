@@ -42,142 +42,61 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    # Imprime o resultado
    print("O princípio da identidade é válido para", item, "?", principio_da_identidade)
 
-3. **Qual é o principal problema da falácia do apelo à ignorância?**
+## Lista de Questões:
 
-   ```python
-   # Teste da Falácia
-   
-   afirmacao = "Não há evidências de que os alienígenas não existam."
-   
-   # Verificação da falácia do apelo à ignorância
-   if not afirmacao:
-       falacia = "Afirmativa falaciosa"
-   else:
-       falacia = "Afirmativa não falaciosa"
-   
-   # Imprime o resultado
-   print(falacia)
+1. O que caracteriza a Lógica Proposicional?
+R: Estuda o encadeamento de proposições e suas relações lógicas.
 
-4. **Qual é o significado do princípio da não contradição na lógica clássica?**
+2. Quais são os elementos essenciais da linguagem na lógica proposicional?
+R: Símbolos lógicos e conectivos.
 
-   ```python
-   # Teste do Princípio da Não-Contradição
-   
-   afirmacao1 = True
-   afirmacao2 = False
-   
-   # Verificação do princípio da não contradição
-   if afirmacao1 and afirmacao2:
-       nao_contradicao = "As afirmações são contraditórias"
-   else:
-       nao_contradicao = "As afirmações não são contraditórias"
-   
-   # Imprime o resultado
-   print(nao_contradicao)
+3. O que significa dizer que uma fórula é falseável?
+R: Pode ser tornada falsa por alguma atribuição de valores.
 
-5. **O que caracteriza a falácia do espantalho?**
+4. O que caracteriza corretamente as fórmulas bem formadas na lógica proposicional?
+R: Possuem uma estrutura sintática válida com conectivos lógicos aplicados corretamente
 
-   ```python
-   # Teste da Falácia do Espantalho
-   
-   argumento = "Devemos investir em medidas para proteger o meio ambiente."
-   argumento_distorcido = "Pessoas que defendem o meio ambiente querem parar todo o desenvolvimento econômico."
-   
-   # Verificação da falácia do espantalho
-   if argumento_distorcido:
-       falacia = "Falácia do espantalho presente"
-   else:
-       falacia = "Não há falácia do espantalho presente"
-   
-   # Imprime o resultado
-   print(falacia)
-  
-6. **Como o princípio do terceiro excluído é aplicado na lógica clássica?**
+5. O que caracteriza a função do conectivo 'NÃO' na lógica proposicional?
+R: Inverte a valoração de uma fórmula
 
-   ```python
-   # Teste do Princípio do Terceiro Excluído
-   
-   proposicao = True
-   
-   # Verificação do princípio do terceiro excluído
-   if proposicao or not proposicao:
-       terceiro_excluido = "O princípio do terceiro excluído se aplica"
-   else:
-       terceiro_excluido = "O princípio do terceiro excluído não se aplica"
-   
-   # Imprime o resultado
-   print(terceiro_excluido)
-  
-7. **Qual é a principal preocupação ao identificar a falácia do apelo à autoridade?**
+6. O que caracteriza as proposições auto referentes?
+R: Possuem referências a si mesmas, gerando paradoxos lógicos.
 
-   ```python
-   # Teste da Falácia do Apelo à Autoridade
-   
-   autoridade = "Médico renomado"
-   
-   # Verificação da falácia do apelo à autoridade
-   if autoridade == "Médico renomado":
-       falacia = "A cloroquina é eficaz no tratamento da COVID-19 porque um médico renomado disse."
-   else:
-       falacia = "A cloroquina não é eficaz no tratamento da COVID-19 apenas porque um médico renomado disse."
-   
-   # Imprime o resultado
-   print(falacia)
+7. O que significa dizer que uma fórmula proposicional é satisfatível?
+R: Pode ser tornada verdadeira por alguma atribuição de valores.
 
-8. **Como podemos definir a inferência indutiva?**
+8. Como determinar se uma fórmula é satisfatível usando tabelas-verdade?
+R: Se a fórmula for verdadeira para alguma atribuição de valores.
 
-   ```python
-   # Teste de Inferência Indutiva
-   
-   observacoes = [2, 4, 6, 8, 10]
-   
-   # Inferência: Todos os números observados são pares, portanto, por indução, o próximo número também será par
-   proximo_numero = 12
-   
-   # Imprime a inferência
-   print("O próximo número provavelmente será par:", proximo_numero)
+9. Como a semântica da lógica proposicional relaciona proposições com valores verdadeiros ou falsos?
+R: Atribui os valores V ou F para avaliação das fórmulas.
 
-9. **Como podemos definir a lógica formal?**
+10. Uma fórmula é válida se:
+R: É verdadeira para todas as atribuições
 
-   ```python
-   # Validação da Lógica Formal
-   
-   premissa1 = True
-   premissa2 = True
-   
-   # Conclusão válida pela lógica formal
-   if premissa1 and premissa2:
-       conclusao = True
-   else:
-       conclusao = False
-   
-   # Imprime a conclusão
-   print("A conclusão é válida pela lógica formal?", conclusao)
+11. Se uma fórmula é sempre verdadeira, independentemente dos valores atribuídos, ela é:
+R: Válida.
 
+12. Qual das opções representa corretamente uma fórmula bem formada na lógica proposicional?
+R: p ^ ~q
 
-10. **Qual é a relação entre silogismo e falácia na estrutura argumentativa?**
+13. O que é uma fórmula bem formada (FBF) em lógica?
+R: Uma sequência de símbolos que segue as regras de sintaxe.
 
-    ```python
-    # Teste de Validade Silogística
-    
-    # Silogismo válido, premissas verdadeiras
-    premissa1 = True
-    premissa2 = True
-   
-    if premissa1 and premissa2:
-       conclusao = True
-    else:
-       conclusao = False
-   
-    print("Silogismo válido:", conclusao)
-   
-    # Falácia, premissas falsas
-    premissa1 = False
-    premissa2 = False
-   
-    if premissa1 and premissa2:
-       conclusao = True
-    else:
-       conclusao = False
-   
-    print("Falácia:", conclusao)
+14. Identifique a opção que NÃO representa uma fórmula bem formada.
+R: P ^V q ~r
+
+15. Em qual alternativa os parênteses estão corretamente posicionados?
+R: p -> ( q ^ r )
+
+16. Como representar 'Se está chovendo, então a rua está molhada' usando lógica proposicional?
+R: p -> q
+
+17. Qual é a representação correta para a proposição 'Não está chovendo ou eu estou levando um guarda-chuva'?
+R: ~p V q
+
+18. Considere a fórmula lógica ( p ^ ( q v r) ). Quais das opções abaixo representam subfórmulas dessa expressão?
+R: q v r
+
+19. Em relação à fórmula ( p -> ( q ^ r ) ), qual alternativa indica corretamente o tamanho total da subfórmula ( q ^ r )?
+R: 3
