@@ -9,22 +9,10 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 
 ## Questionário
 
-1. **Como um silogismo é estruturado e qual sua aplicação na lógica?**
+1. **O que caracteriza a Lógica Proposicional?**
 
    ```python
-   # Silogismo de Sócrates
-   
-   premissa1 = "Sócrates é um homem"
-   premissa2 = "Todos os homens são mortais"
-   
-   # Conclusão
-   if premissa1 and premissa2:
-       conclusao = "Sócrates é mortal"
-   else:
-       conclusao = "Não é possível determinar se Sócrates é mortal"
-   
-   # Imprime a conclusão
-   print(conclusao)
+   Estuda o encadeamento de proposições e suas relações lógicas.
 
 2. **O que afirma o princípio da identidade na lógica clássica?**
 
@@ -43,9 +31,6 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
    print("O princípio da identidade é válido para", item, "?", principio_da_identidade)
 
 ## Lista de Questões:
-
-1. O que caracteriza a Lógica Proposicional?
-R: Estuda o encadeamento de proposições e suas relações lógicas.
 
 2. Quais são os elementos essenciais da linguagem na lógica proposicional?
 R: Símbolos lógicos e conectivos.
