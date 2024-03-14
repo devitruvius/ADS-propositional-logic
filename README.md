@@ -63,5 +63,5 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 
 10. **Em relação à fórmula ( p -> ( q ^ r ) ), qual alternativa indica corretamente o tamanho total da subfórmula ( q ^ r )?**
 
-   ```python
-   3
+      ```python
+    3
