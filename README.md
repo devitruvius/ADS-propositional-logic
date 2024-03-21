@@ -12,7 +12,36 @@ O conteúdo está organizado em tópicos correspondentes a cada conjunto de ques
 1. **O que caracteriza a Lógica Proposicional?**
 
    ```python
-   Estuda o encadeamento de proposições e suas relações lógicas.
+   # Função para a conjunção (E/AND)
+   def conjuncao(p, q):
+       return p and q
+   
+   # Função para a disjunção (OU/OR)
+   def disjuncao(p, q):
+       return p or q
+   
+   # Função para a negação (NÃO/NOT)
+   def negacao(p):
+       return not p
+   
+   # Função para a condicional (SE-ENTÃO/IF-THEN)
+   def condicional(p, q):
+       return not p or q
+   
+   # Função para o bicondicional (SE-SOMENTE-SE/IF-AND-ONLY-IF)
+   def bicondicional(p, q):
+       return (p and q) or (not p and not q)
+   
+   # Proposições
+   p = True
+   q = False
+   
+   print("Conjunção (AND):", conjuncao(p, q))
+   print("Disjunção (OR):", disjuncao(p, q))
+   print("Negação (NOT) de p:", negacao(p))
+   print("Condicional (IF-THEN):", condicional(p, q))
+   print("Bicondicional (IF-AND-ONLY-IF):", bicondicional(p, q))
+
 
 2. **Quais são os elementos essenciais da linguagem na lógica proposicional?**
 
